@@ -1,3 +1,268 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+header {
+  background-color: #2C3E50;
+  position: fixed;
+  width: 100%;
+  color: white;
+}
+
+header > .menu-list-container {
+  margin-top: 30px;
+}
+
+header > div > .menu-item {
+  margin: 20px 40px;
+  font-weight: 900;
+}
+
+.float-right {
+  float: right;
+  font-weight: 900;
+}
+
+.float-left {
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+#section-1 {
+  background-color: #18BC9C;
+  text-align: center;
+  color: white;
+  height: 650px;
+}
+
+#section-1 > div > img {
+  width: 200px;
+  display: inline-block;
+  padding-top: 150px;
+}
+
+#section-1 > div > h1 {
+  text-align: center;
+  display: block;
+  top: 200px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+#section-1 > div > p {
+  text-align: center;
+  display: block;
+  top: 240px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#seccion-1 > div {
+  padding-top: 90px;
+}
+
+#section-1 > div > div {
+  padding-top: 300px;
+}
+
+#section-1 > div > h2 {
+  font-size: 22px;
+}
+
+#section-2 {
+  background-color: white;
+  text-align: center;
+  color: black;
+  height: 450px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+#portfolio > div {
+  display: inline-block;
+  margin: 0 80px;
+}
+
+#portfolio > div > img{
+  width: 200px;
+}
+
+
+#section-3 {
+  background: #18BC9C;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+  height: 350px;
+}
+
+#section-3 > div > h2 {
+  margin: 0;
+  letter-spacing: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.parograph-1 {
+  display: block;
+  width: 300px;
+  height: 200px;
+  float: left;
+  text-align: left;
+  margin-left: 350px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.parograph-2 {
+  display: block;
+  width: 300px;
+  height: 200px;
+  float: right;
+  text-align: left;
+  margin-right: 350px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#button-1 {
+  width: 180px;
+  height: 30px;
+  border-color: white;
+   border-width: 1px;
+   border-style: solid;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 200px;
+  padding: 10px 20px;
+}
+
+#section-4{
+  background: white;
+  text-align: center;
+  color: #2C3E50;
+  padding: 0px 0;
+  bottom: 10px;
+  height: 800px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 33px;
+  font-weight: 300;
+}
+
+input[type="text"] {
+  width: 40%;
+  background-color: #FFFFFF;
+  border: none;
+  height: 40px;
+  font-size: 25px;
+}
+
+#button-2 {
+  display: inline-block;
+  margin-right: 420px;
+  background-color:#18BC9C;
+  border-radius: 4px;
+  color: white;
+  margin-top: 170px;
+  padding: 20px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+#section-5 {
+  background: #2C3E50;
+  text-align: center;
+  color: white;
+  height: 280px;
+  margin: auto;
+}
+
+.column-1 {
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+  float: left;
+  text-align: left;
+  margin-left: 280px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.column-2 {
+  display: inline-block;
+  top: 100px;
+  text-align: center;
+  margin-right: 400px;
+  width: 250px;
+  height: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.column-3 {
+  display: inline-block;
+  top: 20px;
+
+  float: right;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 420px;
+  height: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+  footer {
+  background-color: #1A252F;
+  height: 80px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: auto;
+  }
+
+  footer > p {
+    position: relative;
+    top: 30px;
+    margin: 0px;
+  }
